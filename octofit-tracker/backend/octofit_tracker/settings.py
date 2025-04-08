@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-ok-5c65g%sbr@hnt9rt*5son$7+i#pj^fr)x&z%m^hly#rl(b-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'zany-space-parakeet-44g97x7pgq7fvrp-8000.app.github.dev']
 
 
 # Application definition
